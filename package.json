@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js",
-    "build": "mkdir -p public && cp -r public/* public/"
+    "build": "mkdir -p .vercel/output/static && cp -r public/* .vercel/output/static/"
   },
   "dependencies": {
     "ejs": "^3.1.10",
