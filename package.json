@@ -5,8 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js",
-    "build": "mkdir -p .vercel/output/static && cp -r public/* .vercel/output/static/"
+    "dev": "nodemon app.js"
   },
   "dependencies": {
     "ejs": "^3.1.10",
